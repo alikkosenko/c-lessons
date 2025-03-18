@@ -1,7 +1,7 @@
 CC = gcc                     # Компилятор
 CFLAGS = -Wall -Wextra -g    # Флаги компиляции
 TARGET = test    					   # Имя исполняемого файла
-SRCS = test.c                # Исходные файлы
+SRCS = dbllinkedlist.c               # Исходные файлы
 OBJS = $(SRCS:.c=.o)         # Файлы объектных модулей
 
 all: $(TARGET)
