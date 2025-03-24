@@ -15,11 +15,14 @@ int main(int argc, char *argv[]){
  char buf[MAXLEN];
 
  fp = fopen(FILENAME, "r");
+ if (fp == NULL) {
+  puts("Error opening file");
+ }
 
+ while(fgets(buf, sizeof(buf), fp)){
+  printf("Read: %s\n", buf); 
+ }
 
- fgets(buf, sizeof(buf), fp);
-
- printf("Read: %s\n", buf); 
 
 
  fclose(fp);

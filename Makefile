@@ -1,11 +1,7 @@
 CC = gcc                     # Компилятор
 CFLAGS = -Wall -Wextra -g    # Флаги компиляции
 TARGET = test    					   # Имя исполняемого файла
-<<<<<<< HEAD
-SRCS = dbllinkedlist.c               # Исходные файлы
-=======
-SRCS = file2.c                # Исходные файлы
->>>>>>> e6ae441 (Add Binary tree realization and delete misc files)
+SRCS = file4.c                # Исходные файлы
 OBJS = $(SRCS:.c=.o)         # Файлы объектных модулей
 
 all: $(TARGET)
