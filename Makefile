@@ -4,7 +4,7 @@ TARGET = test    					   # Имя исполняемого файла
 <<<<<<< HEAD
 SRCS = dbllinkedlist.c               # Исходные файлы
 =======
-SRCS = BinaryTree.c                # Исходные файлы
+SRCS = file2.c                # Исходные файлы
 >>>>>>> e6ae441 (Add Binary tree realization and delete misc files)
 OBJS = $(SRCS:.c=.o)         # Файлы объектных модулей
 

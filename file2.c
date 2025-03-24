@@ -17,8 +17,9 @@ int main(int argc, char *argv[]){
  fp = fopen(FILENAME, "r");
 
 
- 
- 
+ fgets(buf, sizeof(buf), fp);
+
+ printf("Read: %s\n", buf); 
 
 
  fclose(fp);
